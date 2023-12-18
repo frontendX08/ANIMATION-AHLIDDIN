@@ -1,0 +1,151 @@
+@keyframes box-mover {
+  0% {
+    left: 0;
+    width: 200px;
+  }
+  100% {
+    left: 1500px;
+    width: 200px;
+  }
+}
+@keyframes svetafor-red {
+  0% {
+    left: 0;
+    width: 20px;
+    height: 20px;
+  }
+  100% {
+    background-color: red;
+    width: 20px;
+    height: 20px;
+  }
+}
+@keyframes svetafor-yellow {
+  0% {
+    left: 0;
+    width: 20px;
+    height: 20px;
+  }
+  100% {
+    background-color: yellow;
+    width: 20px;
+    height: 20px;
+  }
+}
+@keyframes svetafor-green {
+  0% {
+    left: 0;
+    width: 20px;
+    height: 20px;
+  }
+  100% {
+    background-color: green;
+    width: 20px;
+    height: 20px;
+  }
+}
+.box {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  animation-name: box-mover;
+  animation-duration: 4s;
+  animation-delay: 9s;
+  animation-iteration-count: 1;
+  /* animation-timing-function: ease-in-out; */
+  animation-fill-mode: both;
+}
+
+.svetafor__red {
+  animation-name: svetafor-red;
+  border: 2px solid;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: white;
+  animation-duration: 7s;
+  animation-delay: 2s;
+}
+
+.svetafor__yellov {
+  animation-name: svetafor-yellow;
+  border: 2px solid;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: white;
+  animation-duration: 4s;
+  animation-delay: 5s;
+}
+
+.svetafor__green {
+  animation-name: svetafor-green;
+  border: 2px solid;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: white;
+  animation-duration: 8s;
+  animation-delay: 7s;
+}
+
+.svetafor {
+  border-radius: 5px;
+  background-color: black;
+  margin-left: 250px;
+  transform: translateY(30px);
+  border: 2px solid;
+  width: 23.5px;
+}
+
+.head {
+  text-align: center;
+}
+
+.head__h2 {
+  width: 248px;
+  height: 42px;
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.head__text {
+  width: 413px;
+  height: 30px;
+  top: 50px;
+  left: 94px;
+  font-family: Poppins;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Arrial" sans-serif;
+  font-size: 16px;
+  background-color: white;
+}
+
+*, ::after, ::before {
+  box-sizing: inherit;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}/*# sourceMappingURL=main.css.map */
